@@ -66,9 +66,9 @@ The `json_to_csv.py` script uses the following algorithm to extract invoice data
 
 1. Iterate through each JSON file in the `Extracted_json_files` folder.
 
-2. Extract the invoice description using the 'bounds' attribute.
+2. Extract the invoice description using the **'Bounds'** attribute.
 
-3. Extract the text data from the JSON file and store it in a list.
+3. Extract the text data using **'Text'** attribute from the JSON file and store it in a list.
 
 4. Remove leading and trailing whitespace from the text data.
 
